@@ -55,12 +55,16 @@ table {
 
 #site {
   font-family: 'Rubik';
+  background-color: #000;
   /*background: url('../image/test.png');*/ }
+  #site.stopscroll {
+    overflow: hidden; }
   #site nav {
-    top: 0;
-    left: 0;
+    top: 0rem;
+    left: 0rem;
     position: fixed;
-    font-size: 2rem; }
+    font-size: 2rem;
+    z-index: 10; }
     #site nav a:link,
     #site nav a:visited {
       color: magenta;
@@ -76,43 +80,43 @@ table {
         #site nav li a.selected {
           padding-left: 2rem;
           z-index: 1000; }
-  #site #external_links {
+  #site #links {
+    width: 100%;
     position: fixed;
-    top: 2rem;
-    right: 3rem;
-    position: fixed;
-    font-family: monospace; }
-    #site #external_links a {
-      display: block;
-      border: 1px solid #000;
-      padding: 0.2rem;
-      border-radius: 1rem;
-      -webkit-border-radius: 1rem;
-      color: #000;
-      background-color: #fff;
-      text-decoration: none;
-      text-align: center;
-      margin-bottom: 1rem;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); }
-    #site #external_links a:hover {
-      background-color: #ff0; }
-  #site footer h1 {
-    font-size: 2rem;
-    position: fixed;
-    text-transform: uppercase;
-    color: magenta;
-    font-style: italic; }
-  #site footer h1:nth-child(1) {
-    bottom: 2rem;
-    right: 4rem; }
-  #site footer h1:nth-child(2) {
-    /*transform: rotate(-90deg);*/
-    /*bottom: 10rem;*/
-    /*right: -5rem;*/
-    top: auto;
     bottom: 0rem;
-    right: 0.5rem; }
+    left: 0rem;
+    max-height: 1.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    z-index: 5;
+    background-color: #000;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    transition: max-height ease 0.3s; }
+    #site #links:hover {
+      max-height: 6rem; }
+    #site #links li {
+      text-align: center;
+      list-style: none;
+      padding: 0.25rem 0;
+      font-family: monospace;
+      color: #fff;
+      /*text-transform: uppercase;*/ }
+    #site #links a:link,
+    #site #links a:visited {
+      color: #fff;
+      padding-bottom: 0.2rem;
+      text-decoration: none; }
+    #site #links a:hover {
+      text-decoration: underline; }
+  #site footer img {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem; }
   #site section {
+    background-color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-bottom: 3px dashed #000;
@@ -144,6 +148,33 @@ table {
     width: 100%;
     display: none;
     background-color: #fff; }
+  #site #slide_position {
+    position: absolute;
+    color: magenta;
+    font-size: 1.5rem;
+    left: 1.5rem;
+    top: 1.5rem; }
+  #site #close,
+  #site #left,
+  #site #right {
+    position: absolute;
+    z-index: 3000; }
+    #site #close:hover,
+    #site #left:hover,
+    #site #right:hover {
+      cursor: pointer; }
+  #site #close {
+    top: 1rem;
+    right: 2rem; }
+  #site #left,
+  #site #right {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); }
+  #site #left {
+    left: 2rem; }
+  #site #right {
+    right: 2rem; }
   #site .image_modal_container {
     position: fixed;
     z-index: 30;
@@ -161,9 +192,11 @@ table {
     z-index: 30;
     bottom: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    color: #fff;
+    background-color: #000;
+    padding: 0.2rem 0;
     font-family: monospace;
-    text-align: center; }
+    text-align: center;
+    font-size: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
