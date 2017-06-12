@@ -199,5 +199,7 @@ table {
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.4em; }
+  #site #current {
+    padding-right: 0.1em; }
 
 /*# sourceMappingURL=main.css.map */
