@@ -63,10 +63,11 @@ table {
     top: 1.5rem;
     left: 1.5rem;
     position: fixed;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     z-index: 10; }
     #site nav a:link,
     #site nav a:visited {
+      letter-spacing: 0.05em;
       color: magenta;
       text-decoration: none;
       text-shadow: 2px 2px 0 #fff; }
@@ -79,7 +80,7 @@ table {
         -webkit-transition: font-size ease 0.3s;*/
         z-index: 10; }
         #site nav li a.selected {
-          font-size: 2.5rem;
+          padding-left: 3.1rem;
           z-index: 1000; }
   #site #links {
     position: fixed;
