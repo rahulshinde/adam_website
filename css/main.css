@@ -94,7 +94,7 @@ table {
       text-align: center;
       list-style: none;
       padding: 0.25rem 0;
-      font-family: monospace;
+      font-family: 'Space Mono', monospace;
       color: #000;
       /*text-transform: uppercase;*/ }
     #site #links a:link,
@@ -134,7 +134,7 @@ table {
       text-align: center;
       display: block;
       margin: 0 auto 4rem auto;
-      font-family: monospace;
+      font-family: 'Space Mono', monospace;
       background-color: #000;
       color: white;
       width: 60%;
@@ -195,7 +195,7 @@ table {
     width: 100%;
     color: #000;
     padding: 0.2rem 0;
-    font-family: monospace;
+    font-family: 'Space Mono', monospace;
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.4em; }
