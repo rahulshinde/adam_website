@@ -72,6 +72,7 @@ table {
       text-decoration: none;
       text-shadow: 2px 2px 0 #fff; }
     #site nav li {
+      text-transform: uppercase;
       /*margin-bottom: 5rem;*/ }
       #site nav li a {
         position: relative;
@@ -92,19 +93,20 @@ table {
     z-index: 5;
     transition: max-height ease 0.3s; }
     #site #links li {
-      text-align: center;
+      text-align: right;
       list-style: none;
       padding: 0.25rem 0;
       font-family: 'Space Mono', monospace;
       color: #000;
-      /*text-transform: uppercase;*/ }
+      padding-bottom: 0.2rem;
+      font-size: 1.3rem;
+      text-transform: uppercase; }
     #site #links a:link,
     #site #links a:visited {
       color: #000;
-      padding-bottom: 0.2rem;
-      font-size: 1.3rem;
-      text-decoration: none;
-      text-transform: uppercase; }
+      text-decoration: none; }
+    #site #links a:hover {
+      text-decoration: underline; }
   #site #bottom_bar {
     position: fixed;
     bottom: 0;
@@ -202,5 +204,15 @@ table {
     line-height: 1.4em; }
   #site #current {
     padding-right: 0.1em; }
+  #site .about_image {
+    display: block;
+    margin: 6rem auto 2rem auto;
+    border: 3px solid #000;
+    height: 80vh;
+    width: auto; }
+  #site .upcoming_shows {
+    margin-top: 10rem;
+    text-align: center;
+    line-height: 1.4em; }
 
 /*# sourceMappingURL=main.css.map */
