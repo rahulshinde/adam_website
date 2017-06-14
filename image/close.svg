@@ -2,7 +2,11 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="33.5px" height="32px" viewBox="0 0 33.5 32" enable-background="new 0 0 33.5 32" xml:space="preserve">
-<polygon points="29.979,5.82 27.679,3.52 16.833,14.366 5.986,3.52 3.686,5.82 14.532,16.667 3.686,27.513 5.986,29.813 
-	16.833,18.967 27.679,29.813 29.979,27.513 19.133,16.667 "/>
+	 width="70px" height="70px" viewBox="-18.25 -18.25 70 70" enable-background="new -18.25 -18.25 70 70" xml:space="preserve">
+<g>
+	<rect x="-16.75" y="-16.75" width="67" height="67"/>
+	<path fill="#FFFFFF" d="M48.75-15.25v64h-64v-64H48.75 M51.75-18.25h-70v70h70V-18.25L51.75-18.25z"/>
+</g>
+<polygon fill="#FFFFFF" points="32.646,3.704 29.88,0.937 16.833,13.983 3.786,0.937 1.02,3.704 14.066,16.75 1.02,29.798 
+	3.786,32.562 16.833,19.518 29.88,32.562 32.646,29.798 19.6,16.75 "/>
 </svg>
