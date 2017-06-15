@@ -360,6 +360,10 @@ html {
   #site #close,
   #site #left,
   #site #right {
-    width: 2.5rem; } }
+    width: 2.5rem; }
+  #site #close {
+    top: 1.5rem; }
+  #site #slide_position {
+    top: 1.25rem; } }
 
 /*# sourceMappingURL=main.css.map */
