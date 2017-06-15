@@ -93,7 +93,6 @@ Site.closeImage = function(){
   $('.image_modal_container').css('display', 'none');
   $('.image_caption').css('display', 'none');
   $('body').removeClass('stopscroll');
-  history.pushState({foo: "bar"}, 'hello', '/');
 }
 
 Site.prevImage = function(){
