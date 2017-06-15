@@ -100,13 +100,13 @@ table {
     border: 3px solid yellow; } }
 html {
   font-size: 16px; }
-  @media screen and (min-width: max-width) {
+  @media screen and (min-width: 1800px) {
     html {
       font-size: 30px; } }
-  @media screen and (min-width: max-width) {
+  @media screen and (min-width: 1530px) {
     html {
       font-size: 25px; } }
-  @media screen and (min-width: max-width) {
+  @media screen and (min-width: 1281px) {
     html {
       font-size: 20px; } }
   @media screen and (max-width: 1050px) {
