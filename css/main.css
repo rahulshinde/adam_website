@@ -342,16 +342,16 @@ html {
     text-align: center;
     line-height: 1.4em; }
 
-@media screen and (max-width: 1050px) {
+@media only screen and (max-width: 1050px) {
   html {
     font-size: 14px; } }
-@media screen and (min-width: 1281px) and (max-width: 1529px) {
+@media only screen and (max-width: 1529px) and (min-width: 1281px) {
   html {
     font-size: 20px; } }
-@media screen and (min-width: 1530px) and (max-width: 1799px) {
+@media only screen and (max-width: 1799px) and (min-width: 1530px) {
   html {
     font-size: 25px; } }
-@media screen and (min-width: 1800px) {
+@media only screen and (min-width: 1800px) {
   html {
     font-size: 30px; } }
 
