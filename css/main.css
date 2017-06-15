@@ -100,18 +100,6 @@ table {
     border: 3px solid yellow; } }
 html {
   font-size: 16px; }
-  @media screen and (min-width: 1800px) {
-    html {
-      font-size: 30px; } }
-  @media screen and (min-width: 1530px) {
-    html {
-      font-size: 25px; } }
-  @media screen and (min-width: 1281px) {
-    html {
-      font-size: 20px; } }
-  @media screen and (max-width: 1050px) {
-    html {
-      font-size: 14px; } }
 
 #site {
   font-family: 'Rubik';
@@ -353,5 +341,18 @@ html {
     margin-top: 10rem;
     text-align: center;
     line-height: 1.4em; }
+
+@media screen and (max-width: 1050px) {
+  html {
+    font-size: 14px; } }
+@media screen and (min-width: 1281px) and (max-width: 1529px) {
+  html {
+    font-size: 20px; } }
+@media screen and (min-width: 1530px) and (max-width: 1799px) {
+  html {
+    font-size: 25px; } }
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
