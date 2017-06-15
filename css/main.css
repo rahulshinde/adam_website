@@ -110,6 +110,9 @@ html {
   /*background: url('../image/test.png');*/ }
   #site.stopscroll {
     overflow: hidden; }
+    @media screen and (max-width: 740px) {
+      #site.stopscroll #links {
+        display: none; } }
   #site nav {
     top: 1.5rem;
     left: 1.5rem;
@@ -251,7 +254,7 @@ html {
     background-color: #fff; }
     @media screen and (max-width: 740px) {
       #site .image_modal_box {
-        background-color: #000; } }
+        background-color: transparent; } }
   #site #slide_position {
     position: absolute;
     color: magenta;
@@ -260,6 +263,9 @@ html {
     top: 1.5rem;
     z-index: 3000;
     text-shadow: 2px 2px 0 #fff; }
+    @media screen and (max-width: 740px) {
+      #site #slide_position {
+        display: none; } }
   #site #close,
   #site #left,
   #site #right {
@@ -318,12 +324,6 @@ html {
     font-size: 1.3rem;
     line-height: 1.4em;
     /*box-shadow: 0px -2px 5px #000;*/ }
-    @media screen and (max-width: 740px) {
-      #site .image_caption {
-        top: 50%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        bottom: auto; } }
   #site #current {
     padding-right: 0.1em; }
   #site .about_image {
@@ -340,14 +340,6 @@ html {
   @media screen and (max-width: 740px) {
     #site #back_to_home {
       width: 0; } }
-  @media screen and (max-width: 740px) {
-    #site.about_body {
-      /*position: fixed;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%;*/
-      background-color: #000 !important; } }
   #site .upcoming_shows {
     margin-top: 10rem;
     text-align: center;
