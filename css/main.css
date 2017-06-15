@@ -100,6 +100,9 @@ table {
     border: 3px solid yellow; } }
 html {
   font-size: 16px; }
+  @media screen and (max-width: 1050px) {
+    html {
+      font-size: 14px; } }
 
 #site {
   font-family: 'Rubik';
@@ -149,6 +152,9 @@ html {
       /*padding-bottom: 0.2rem;*/
       font-size: 1.3rem;
       text-transform: uppercase; }
+      @media screen and (max-width: 740px) {
+        #site #links li {
+          margin-bottom: 1.4rem; } }
     #site #links a:link,
     #site #links a:visited {
       padding: 0rem 0.25rem 0 0.25rem;
@@ -169,6 +175,9 @@ html {
     position: fixed;
     bottom: 3rem;
     right: 2rem; }
+    @media screen and (max-width: 740px) {
+      #site footer img {
+        display: none; } }
   #site section:first-of-type {
     border-top: 0px solid; }
   #site section {
@@ -186,6 +195,10 @@ html {
       height: auto;
       /*margin: 2rem auto 0 auto;*/
       /*border: 3px solid #000;*/ }
+      @media screen and (max-width: 740px) {
+        #site section img {
+          width: 80%;
+          margin: 2rem auto; } }
       #site section img:nth-child(6n - 12) {
         border: 3px solid yellow;
         animation: gradient 6s linear infinite;
@@ -236,6 +249,9 @@ html {
     width: 100%;
     display: none;
     background-color: #fff; }
+    @media screen and (max-width: 740px) {
+      #site .image_modal_box {
+        background-color: #000; } }
   #site #slide_position {
     position: absolute;
     color: magenta;
@@ -263,6 +279,11 @@ html {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%); }
+    @media screen and (max-width: 740px) {
+      #site #left,
+      #site #right {
+        opacity: 0;
+        z-index: -1000; } }
   #site #left {
     left: 2rem; }
   #site #right {
@@ -278,6 +299,10 @@ html {
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important; }
+    @media screen and (max-width: 740px) {
+      #site .image_modal_container {
+        opacity: 0;
+        z-index: -1000; } }
   #site .image_caption {
     text-transform: uppercase;
     position: fixed;
@@ -293,6 +318,12 @@ html {
     font-size: 1.3rem;
     line-height: 1.4em;
     /*box-shadow: 0px -2px 5px #000;*/ }
+    @media screen and (max-width: 740px) {
+      #site .image_caption {
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        bottom: auto; } }
   #site #current {
     padding-right: 0.1em; }
   #site .about_image {
@@ -303,6 +334,20 @@ html {
     animation: gradient 5s linear infinite;
     -webkit-animation: gradient 5s linear infinite;
     -moz-animation: gradient 5s linear infinite; }
+    @media screen and (max-width: 740px) {
+      #site .about_image {
+        display: none; } }
+  @media screen and (max-width: 740px) {
+    #site #back_to_home {
+      width: 0; } }
+  @media screen and (max-width: 740px) {
+    #site.about_body {
+      /*position: fixed;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;*/
+      background-color: #000 !important; } }
   #site .upcoming_shows {
     margin-top: 10rem;
     text-align: center;
