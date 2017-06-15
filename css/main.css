@@ -150,22 +150,22 @@ table {
       height: auto;
       /*margin: 2rem auto 0 auto;*/
       /*border: 3px solid #000;*/ }
-      #site section img:nth-child(1n + 1) {
+      #site section img:nth-child(6n - 12) {
         border: 3px solid yellow;
         animation: gradient 6s linear infinite; }
-      #site section img:nth-child(2n + 2) {
+      #site section img:nth-child(6n - 11) {
         border: 3px solid orange;
         animation: gradient 6s linear 1s infinite; }
-      #site section img:nth-child(3n + 3) {
+      #site section img:nth-child(6n - 10) {
         border: 3px solid limegreen;
         animation: gradient 6s linear 2s infinite; }
-      #site section img:nth-child(4n + 4) {
+      #site section img:nth-child(6n - 9) {
         border: 3px solid red;
         animation: gradient 6s linear 3s infinite; }
-      #site section img:nth-child(5n + 5) {
+      #site section img:nth-child(6n - 8) {
         border: 3px solid blue;
         animation: gradient 6s linear 4s infinite; }
-      #site section img:nth-child(6n + 6) {
+      #site section img:nth-child(6n - 7) {
         border: 3px solid magenta;
         animation: gradient 6s linear 5s infinite; }
       #site section img:hover {
