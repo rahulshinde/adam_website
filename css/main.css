@@ -106,7 +106,6 @@ html {
   background-color: #fff;
   /*background: url('../image/test.png');*/ }
   #site.stopscroll {
-    max-height: 100vh;
     overflow: hidden; }
     @media screen and (max-width: 740px) {
       #site.stopscroll #links {
@@ -252,7 +251,7 @@ html {
     background-color: #fff; }
     @media screen and (max-width: 740px) {
       #site .image_modal_box {
-        background-color: black;
+        background-color: transparent;
         z-index: 100; } }
   #site #loading {
     width: 100%;
