@@ -251,7 +251,7 @@ html {
     background-color: #fff; }
     @media screen and (max-width: 740px) {
       #site .image_modal_box {
-        background-color: transparent;
+        background-color: black;
         z-index: 100; } }
   #site #loading {
     width: 100%;
