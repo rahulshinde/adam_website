@@ -350,7 +350,16 @@ html {
     font-size: 20px; } }
 @media only screen and (max-width: 1799px) and (min-width: 1530px) {
   html {
-    font-size: 25px; } }
+    font-size: 25px; }
+
+  #site footer img {
+    width: 12rem; }
+  #site #close,
+  #site #left,
+  #site #right {
+    width: 3rem; }
+  #site #slide_position {
+    top: 1.25rem; } }
 @media only screen and (min-width: 1800px) {
   html {
     font-size: 30px; }
