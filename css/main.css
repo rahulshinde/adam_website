@@ -336,7 +336,7 @@ html {
     padding-right: 0.1em; }
   #site .about_image {
     display: block;
-    margin: 6rem auto 4rem auto;
+    margin: 10vh auto 10vh auto;
     height: 80vh;
     width: auto;
     animation: gradient 5s linear infinite;

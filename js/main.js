@@ -54,7 +54,7 @@ Site.toggleNav = function(){
   } else if (Site.scroll_position >= Site.y2014 && Site.scroll_position < Site.y2013 && !$('.link_2014').hasClass('selected')){
     $('.nav_link').removeClass('selected');
     $('.link_2014').addClass('selected');
-  } else if (Site.scroll_position >= Site.y2013 || Site.scroll_position >= $(document).height() - $(window).height() && !$('.link_2014').hasClass('selected')) {
+  } else if (Site.scroll_position >= Site.y2013 || Site.scroll_position >= $(document).height() - $(window).height() && !$('.link_2013').hasClass('selected')) {
     $('.nav_link').removeClass('selected');
     $('.link_2013').addClass('selected');
   } 
